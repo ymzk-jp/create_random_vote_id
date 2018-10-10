@@ -14,7 +14,7 @@ class Lottery extends NodeUuid {
         return ~~(Math.random() * 10000) + 1;
     }
 
-    bark(voter_id,product_id,lottery_num){
+    bark(voter_id, product_id, lottery_num) {
         console.log(`('${voter_id}', ${product_id}, '${lottery_num}'),`); //=>('92d054e6f9ed4269', 47ef9c3a0de54b6e, '3923')
     }
 }
