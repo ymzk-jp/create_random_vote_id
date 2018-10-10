@@ -1,10 +1,5 @@
 const Lottery = require('./lottery');
 let v = new Lottery();
-console.log(v.voterId());
-
-
-
-const lottery_num = v.lotteryNum();
 
 for(let i=0; i<5;i++){
     const voter_id = v.voterId();
